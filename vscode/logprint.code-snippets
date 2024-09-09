@@ -1,0 +1,154 @@
+{
+	"console.log(\"$1 => \", $2)": {
+		"prefix": "clg",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.log(\"$1 => \", $2);",
+		],
+		"description": "控制台指定信息打印语句"
+	},
+	"console.log($1)": {
+		"prefix": "cLg",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.log($1);",
+		],
+		"description": "控制台信息打印语句"
+	},
+
+	"console.error(\"$1 => \", $2)": {
+		"prefix": "cle",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.error(\"$1 => \", $2);",
+		],
+		"description": "控制台指定错误信息打印语句"
+	},
+	"console.error($1)": {
+		"prefix": "cLe",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.error($1);",
+		],
+		"description": "控制台错误信息打印语句"
+	},
+
+	"console.warning(\"$1 => \", $2)": {
+		"prefix": "clw",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.warning(\"$1 => \", $2);",
+		],
+		"description": "控制台指定警告信息打印语句"
+	},
+	"console.warning($1)": {
+		"prefix": "cLw",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.warning($1);",
+		],
+		"description": "控制台警告信息打印语句"
+	},
+
+	"console.table(\"$1 => \", $2)": {
+		"prefix": "cltb",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.table(\"$1 => \", $2);",
+		],
+		"description": "控制台指定表格信息打印语句"
+	},
+	"console.table($1)": {
+		"prefix": "cLtb",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.table($1);",
+		],
+		"description": "控制台表格信息打印语句"
+	},
+
+	"console.dir(\"$1 => \", $2)": {
+		"prefix": "cld",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.dir(\"$1 => \", $2);",
+		],
+		"description": "控制台指定对象信息打印语句"
+	},
+	"console.dir($1)": {
+		"prefix": "cLd",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.dir($1);",
+		],
+		"description": "控制台对象信息打印语句"
+	},
+
+	"console.trace(\"$1 => \", $2)": {
+		"prefix": "clt",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.trace(\"$1 => \", $2);",
+		],
+		"description": "控制台指定堆栈信息打印语句"
+	},
+	"console.trace($1)": {
+		"prefix": "cLt",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.trace($1);",
+		],
+		"description": "控制台堆栈信息打印语句"
+	},
+
+	"console.time($1)": {
+		"prefix": "cltm",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.time(\"$1\");",
+			"$2",
+			"console.timeEnd(\"$1\");",
+		],
+		"description": "控制台代码执行时间打印语句"
+	},
+
+	"console.assert($1, \"$s2\")": {
+		"prefix": "cla",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.assert($1, \"$2\");",
+		],
+		"description": "控制台代码 false 条件语句打印语句"
+	},
+
+	"console.clear()": {
+		"prefix": "clc",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.clear();",
+		],
+		"description": "控制台清屏语句"
+	},
+
+	"console.group(\"$1\")": {
+		"prefix": "clgp",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.group(\"$1\");",
+			"$2",
+			"console.groupEnd();",
+		],
+		"description": "控制台分组打印语句"
+	},
+
+	"console.groupCollapsed(\"$1\")": {
+		"prefix": "clgc",
+		"scope": "javascript,typescript,vue,html",
+		"body": [
+			"console.groupCollapsed(\"$1\");",
+			"$2",
+			"console.groupEnd();",
+		],
+		"description": "控制台折叠分组打印语句"
+	},
+}
